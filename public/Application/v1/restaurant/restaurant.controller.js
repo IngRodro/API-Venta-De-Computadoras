@@ -8,7 +8,6 @@ var _fsExtra = _interopRequireDefault(require("fs-extra"));
 var _getPagination = require("../../../Utils/getPagination");
 var _restaurant = _interopRequireDefault(require("./restaurant.model"));
 var _cloudFile = require("../../../Utils/cloudFile");
-var _product = _interopRequireDefault(require("../product/product.model"));
 var _menuOptions = _interopRequireDefault(require("../menuOptions/menuOptions.model"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 const getRestaurantByUser = async (req, res) => {

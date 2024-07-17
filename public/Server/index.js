@@ -9,8 +9,10 @@ var _cors = _interopRequireDefault(require("cors"));
 var _db = require("./db");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 const corsOptions = {
+  origin: 'https://web-venta-de-computadoras.vercel.app',
   allowedHeaders: 'Content-Type, auth-token',
-  exposedHeaders: 'auth-token'
+  exposedHeaders: 'auth-token',
+  optionsSuccessStatus: 200
 };
 const app = exports.app = (0, _express.default)();
 

@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Api created by create-rivas-node",
   "main": "src/main.js",
-  "type": "module",
   "author": "rivaslive",
   "license": "MIT",
   "private": false,
