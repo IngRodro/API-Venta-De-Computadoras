@@ -3,7 +3,7 @@ import cors from 'cors';
 import { initializeDB } from './db';
 
 const corsOptions = {
-  origin: 'https://web-venta-de-computadoras.vercel.app/',
+  origin: 'https://web-venta-de-computadoras.vercel.app',
   allowedHeaders: 'Content-Type, auth-token',
   exposedHeaders: 'auth-token',
 };
