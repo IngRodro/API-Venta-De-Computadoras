@@ -6,6 +6,7 @@ const corsOptions = {
   origin: 'https://web-venta-de-computadoras.vercel.app',
   allowedHeaders: 'Content-Type, auth-token',
   exposedHeaders: 'auth-token',
+  optionsSuccessStatus: 200,
 };
 
 export const app = express();
